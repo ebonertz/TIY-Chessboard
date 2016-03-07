@@ -46,3 +46,6 @@
     background: #999;
     border-radius: 3px;
      }
+     .player {
+         opacity: 0; 
+     }
