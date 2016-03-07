@@ -55,7 +55,10 @@ $(document).ready( function() {
        $("#43").html(pieces.p);
       console.log("GIVER");
   });
-
+  $(".btn-step-back").click(function() {
+      $("#43").html("");
+      $("#63").html(pieces.p);
+  });
 
 
     }); //This ends the file
